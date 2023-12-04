@@ -62,11 +62,24 @@ export const Button = styled.button`
         }
 `
 
+export const A = styled.a`
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+
+        @media (max-width: 460px){
+            font-size: 12px;
+        }
+`
+
 export const Img = styled.img`
     width: 1.5vw;
 
         @media (max-width: 460px) {
-            width: 7vw;
+            width: 70%;
         }
 `
 
