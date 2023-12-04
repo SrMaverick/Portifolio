@@ -2,27 +2,31 @@ import styled from "styled-components"
 
 export const StyleHeader = styled.header`
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 1rem;
 
         @media (max-width: 460px) {
-            border: solid;
+            flex-direction: column;
         }
 `
 
 export const H1 = styled.h1`
     font-family: 'DM Sans', sans-serif;
     color: #00D2DF;
+
+        @media (max-width: 460px) {
+            text-align: center;
+        }
 `
 
 export const Nav = styled.nav`
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 25vw;
 
         @media (max-width: 460px) {
-            border: solid;
+            width: 100%;
         }
 `
 
@@ -35,6 +39,12 @@ export const Ul = styled.ul`
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
 ;
+
+        @media (max-width: 460px){
+            justify-content: space-around;
+            width: 100%;
+        }
+
 
     a{
         text-decoration: none;

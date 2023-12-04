@@ -75,10 +75,10 @@ export const Nav = styled.nav`
 `
 
 export const Workdev = styled.img`
-    width: 38%;
+    width: 35%;
 
         @media (max-width: 460px) {
-            width: 50%;
+            width: 55%;
         }
 `
 
